@@ -1,0 +1,944 @@
+Kandahar 31d37lN 65d43lE  Afghanistan
+Kabul 34d32lN 69d10lE  Afghanistan
+Algiers 36d46lN 3d13lE  Algeria
+Adelaide 34d56lS 138d36lE  Australia
+Aarhus 56d09lN 10d13lE  Denmark
+Addis Ababa 9d02lN 38d44lE  Ethiopia
+Accra 5d33lN 0d12lW  Ghana
+Abidjan 5d19lN 4d02lW  Ivory Coast
+Aberdeen 57d09lN 2d07lW  United Kingdom
+Acapulco 16d52lN 99d53lW  Mexico
+Abuja 9d04lN 7d29lE  Nigeria
+Abu Dhabi 24d28lN 54d22lE  United Arab Emirates
+Adana 37d00lN 35d19lE  Turkey
+Adamstown 25d04lS 130d06lW  United Kingdom
+Adak 51d53lN 176d39lW  United States
+Alert 82d30lN 62d20lW  Canada
+Alajuela 10d01lN 84d13lW  Costa Rica
+Akureyri 65d41lN 18d06lW  Iceland
+Ahmedabad 23d02lN 72d35lE  India
+Agartala 23d50lN 91d16lE  India
+Agra 27d11lN 78d01lE  India
+Aguascalientes 21d53lN 102d18lW  Mexico
+Albuquerque 35d07lN 106d37lW  United States
+Alexandria 31d12lN 29d55lE  Egypt
+Andorra la Vella 42d30lN 1d30lE  Andorra
+Amritsar 31d38lN 74d52lE  India
+Ambon 3d42lS 128d10lE  Indonesia
+Almaty 43d17lN 76d54lE  Kazakhstan
+Alor Setar 6d07lN 100d22lE  Malaysia
+Alofi 19d03lS 169d55lW  New Zealand
+Amman 31d56lN 35d56lE  Jordan
+Amsterdam 52d22lN 4d54lE  Netherlands
+Anadyr 64d44lN 177d31lE  Russia
+Anchorage 61d13lN 149d54lW  United States
+Huambo 12d46lS 15d44lE  Angola
+Córdoba 31d25lS 64d11lW  Argentina
+Bahía Blanca 38d43lS 62d16lW  Argentina
+Antwerp 51d13lN 4d24lE  Belgium
+Antofagasta 23d39lS 70d24lW  Chile
+Antananarivo 18d56lS 47d31lE  Madagascar
+Angra do Heroísmo 38d29lN 27d13lW  Portugal
+Ankara 39d56lN 32d52lE  Turkey
+Aracaju 10d55lS 37d03lW  Brazil
+Apia 13d50lS 171d45lW  Samoa
+Araraquara 21d48lS 48d11lW  Brazil
+Assis 22d40lS 50d25lW  Brazil
+Arica 18d29lS 70d20lW  Chile
+Arequipa 16d24lS 71d32lW  Peru
+Asmara 15d20lN 38d56lE  Eritrea
+Arkhangelsk 64d32lN 40d32lE  Russia
+Ashgabat 37d56lN 58d22lE  Turkmenistan
+Athena 37d58lN 23d43lE  Greece
+Astana 51d10lN 71d26lE  Kazakhstan
+Asunción 25d17lS 57d38lW  Paraguay
+Baghdad 33d20lN 44d26lE  Iraq
+Avarua 21d12lS 159d46lW  New Zealand
+Auckland 36d50lS 174d44lE  New Zealand
+Atlanta 33d45lN 84d23lW  United States
+Austin 30d15lN 97d45lW  United States
+Augusta 44d19lN 69d47lW  United States
+Ayacucho 13d10lS 74d13lW  Peru
+Comodoro Rivadavia 45d52lS 67d29lW  Argentina
+Cairns 16d56lS 145d47lE  Australia
+Brisbane 27d28lS 153d02lE  Australia
+Baku 40d24lN 49d53lE  Azerbaijan
+Bridgetown 13d06lN 59d37lW  Barbados
+Belmopan 17d15lN 88d46lW  Belize
+Belize City 17d30lN 88d11lW  Belize
+Bauru 22d19lS 49d04lW  Brazil
+Bandar Seri Begawan 4d53lN 114d57lE  Brunei
+Balikpapan 1d16lS 116d50lE  Indonesia
+Banda Aceh 5d33lN 95d19lE  Indonesia
+Bamako 12d39lN 8d00lW  Mali
+Baltimore 39d17lN 76d37lW  United States
+Bangui 4d22lN 18d35lE  Central African Republic
+Bangalore 12d58lN 77d34lE  India
+Bandung 6d55lS 107d37lE  Indonesia
+Bangkok 13d45lN 100d28lE  Thailand
+Barranquilla 10d58lN 74d48lW  Colombia
+Banjul 13d27lN 16d35lW  Gambia
+Barcelona 41d23lN 2d11lE  Spain
+Basse-Terre 16d00lN 61d44lW  France
+Basra 30d30lN 47d49lE  Iraq
+Basel 47d34lN 7d36lE  Switzerland
+Barrow 71d18lN 156d46lW  United States
+Basseterre 17d18lN 62d44lW  Saint Kitts and Nevis
+Batticaloa 7d43lN 81d42lE  Sri Lanka
+Bath 51d23lN 2d22lW  United Kingdom
+Beirut 33d53lN 35d31lE  Lebanon
+Beijing 39d55lN 116d23lE  People's Republic of China
+Belgrade 44d49lN 20d28lE  Serbia
+Belfast 54d36lN 5d56lW  United Kingdom
+Belém 1d27lS 48d30lW  Brazil
+Belo Horizonte 19d55lS 43d56lW  Brazil
+Brasília 15d48lS 47d52lW  Brazil
+Boa Vista 2d49lN 60d40lW  Brazil
+Berlin 52d31lN 13d23lE  Germany
+Benghazi 32d07lN 20d04lE  Libya
+Benin City 6d19lN 5d36lE  Nigeria
+Bergen 60d23lN 5d20lE  Norway
+Bissau 11d51lN 15d34lW  Guinea-Bissau
+Bishkek 42d52lN 74d37lE  Kyrgyzstan
+Birkirkara 35d54lN 14d28lE  Malta
+Bhisho 32d51lS 27d26lE  South Africa
+Bern 46d57lN 7d27lE  Switzerland
+Bilbao 43d15lN 2d55lW  Spain
+Birmingham 52d29lN 1d54lW  United Kingdom
+Bismarck 46d49lN 100d47lW  United States
+Blantyre 15d47lS 35d00lE  Malawi
+Bloemfontein 29d07lS 26d13lE  South Africa
+Bobo-Dioulasso 11d11lN 4d17lW  Burkina Faso
+Bogotá 4d36lN 74d05lW  Colombia
+Bogor 6d36lS 106d48lE  Indonesia
+Bodø 67d18lN 14d33lE  Norway
+Boden 65d50lN 21d43lE  Sweden
+Bordeaux 44d50lN 0d35lW  France
+Bologna 44d30lN 11d21lE  Italy
+Boise 43d37lN 116d12lW  United States
+Bradford 53d48lN 1d45lW  United Kingdom
+Boulder 40d01lN 105d17lW  United States
+Boston 42d21lN 71d04lW  United States
+Brest 48d23lN 4d29lW  France
+Bremen 53d05lN 8d48lE  Germany
+Brazzaville 4d16lS 15d18lE  Republic of the Congo
+Bratsk 56d07lN 101d36lE  Russia
+Bratislava 48d09lN 17d07lE  Slovakia
+Brikama 13d16lN 16d39lW  Gambia
+Brighton and Hove 50d50lN 0d09lW  United Kingdom
+Brussels 50d51lN 4d21lE  Belgium
+Bristol 51d27lN 2d35lW  United Kingdom
+Bujumbura 3d23lS 29d22lE  Burundi
+Budapest 47d28lN 19d03lE  Hungary
+Bucharest 44d26lN 26d06lE  Romania
+Buffalo 42d54lN 78d51lW  United States
+Cagliari 39d15lN 9d03lE  Italy
+Cabo San Lucas 22d53lN 109d55lW  Mexico
+Busan 35d11lN 129d05lE  South Korea
+Bursa 40d11lN 29d03lE  Turkey
+Bulawayo 20d10lS 28d35lE  Zimbabwe
+Canberra 35d18lS 149d07lE  Australia
+Campo Grande 20d28lS 54d37lW  Brazil
+Campinas 22d54lS 47d03lW  Brazil
+Campina Grande 7d14lS 35d53lW  Brazil
+Calgary 51d03lN 114d04lW  Canada
+Calama 22d28lS 68d56lW  Chile
+Cairo 30d03lN 31d14lE  Egypt
+Calais 50d57lN 1d51lE  France
+Cambridge 52d12lN 0d07lE  United Kingdom
+Chittagong 22d22lN 91d48lE  Bangladesh
+Charleroi 50d24lN 4d26lE  Belgium
+Caruaru 8d17lS 35d59lW  Brazil
+Cartagena 10d24lN 75d30lW  Colombia
+Cannes 43d33lN 7d01lE  France
+Cancún 21d10lN 86d51lW  Mexico
+Cape Town 33d56lS 18d25lE  South Africa
+Cardiff 51d29lN 3d11lW  United Kingdom
+Caracas 10d30lN 66d55lW  Venezuela
+Cayenne 4d55lN 52d20lW  France
+Catania 37d30lN 15d05lE  Italy
+Casablanca 33d32lN 7d35lW  Morocco
+Castries 14d01lN 60d59lW  Saint Lucia
+Chandigarh 30d45lN 76d47lE  India
+Cebu City 10d17lN 123d54lE  Philippines
+Chaguanas 10d30lN 61d23lW  Trinidad and Tobago
+Changchun 43d54lN 125d12lE  People's Republic of China
+Charlottetown 46d14lN 63d09lW  Canada
+Charlotte Amalie 18d21lN 64d57lW  United States
+Charlotte 35d14lN 80d51lW  United States
+Charleston 38d21lN 81d38lW  United States
+Chennai (Madras) 13d05lN 80d16lE  India
+Chengdu 30d40lN 104d04lE  People's Republic of China
+Chelyabinsk 55d09lN 61d23lE  Russia
+Chihuahua 28d38lN 106d05lW  Mexico
+Chiang Mai 18d48lN 99d00lE  Thailand
+Cheyenne 41d09lN 104d48lW  United States
+Chiang Rai 19d55lN 99d50lE  Thailand
+Chicago 41d53lN 87d38lW  United States
+Chinandega 12d37lN 87d09lW  Nicaragua
+Chuí 33d41lS 53d27lW  Brazil
+Chişinău 47d00lN 28d55lE  Moldova
+Christchurch 43d32lS 172d37lE  New Zealand
+Chongjin 41d48lN 129d47lE  North Korea
+Chongqing 29d34lN 106d34lE  People's Republic of China
+Coihaique 45d34lS 72d04lW  Chile
+Ciudad Juárez 31d44lN 106d29lW  Mexico
+Cincinnati 39d06lN 84d31lW  United States
+Ciudad Bolívar 8d07lN 63d33lW  Venezuela
+Ciudad del Este 25d31lS 54d37lW  Paraguay
+Cluj-Napoca 46d46lN 23d35lE  Romania
+Cleveland 41d29lN 81d40lW  United States
+Cockburn Town 21d28lN 71d08lW  United Kingdom
+Cologne 50d56lN 6d58lE  Germany
+Colombo 6d56lN 79d51lE  Sri Lanka
+Columbia 34d00lN 81d03lW  United States
+Columbus 39d59lN 82d59lW  United States
+Cotonou 6d22lN 2d26lE  Benin
+Copiapó 27d22lS 70d20lW  Chile
+Concepción 36d50lS 73d03lW  Chile
+Conakry 9d31lN 13d43lW  Guinea
+Copenhagen 55d41lN 12d34lE  Denmark
+Concord 43d12lN 71d32lW  United States
+Cork 51d54lN 8d28lW  Ireland
+Cuiabá 15d36lS 56d06lW  Brazil
+Craiova 44d20lN 23d49lE  Romania
+Coventry 52d24lN 1d31lW  United Kingdom
+Curitiba 25d25lS 49d15lW  Brazil
+Culiacán 24d48lN 107d23lW  Mexico
+Cusco 13d32lS 71d58lW  Peru
+Darwin 12d27lS 130d50lE  Australia
+Cúcuta 7d54lN 72d30lW  Colombia
+Dalian 38d55lN 121d38lE  People's Republic of China
+Dakar 14d42lN 17d27lW  Senegal
+Daegu 35d52lN 128d36lE  South Korea
+Da Nang 16d04lN 108d14lE  Vietnam
+Dammam 26d17lN 50d12lE  Saudi Arabia
+Damascus 33d31lN 36d18lE  Syria
+Dallas 32d47lN 96d48lW  United States
+Dar es Salaam 6d48lS 39d17lE  Tanzania
+Gold Coast 28d01lS 153d24lE  Australia
+Geelong 38d09lS 144d21lE  Australia
+Dhaka 23d42lN 90d23lE  Bangladesh
+Denpasar 8d39lS 115d13lE  Indonesia
+Davao City 7d04lN 125d36lE  Philippines
+Dededo 13d31lN 144d50lE  United States
+Deadhorse 70d12lN 148d31lW  United States
+Denver 39d44lN 104d59lW  United States
+Des Moines 41d35lN 93d37lW  United States
+Detroit 42d20lN 83d03lW  United States
+Francistown 21d10lS 27d31lE  Botswana
+Florianópolis 27d50lS 48d25lW  Brazil
+Fernando de Noronha 3d51lS 32d25lW  Brazil
+Douala 4d03lN 9d42lE  Cameroon
+Djibouti 11d35lN 43d09lE  Djibouti
+Dibrugarh 27d29lN 95d00lE  India
+Dili 8d33lS 125d35lE  Timor-Leste
+Dongguan 23d02lN 113d43lE  People's Republic of China
+Doha 25d17lN 51d32lE  Qatar
+Dodoma 6d10lS 35d45lE  Tanzania
+Edmonton 53d32lN 113d30lW  Canada
+Dresden 51d02lN 13d44lE  Germany
+Douglas 54d09lN 4d29lW  United Kingdom
+Dover 39d10lN 75d32lW  United States
+Düsseldorf 51d14lN 6d47lE  Germany
+Dublin 53d21lN 6d16lW  Ireland
+Dubai 25d15lN 55d18lE  United Arab Emirates
+Durango 24d01lN 104d40lW  Mexico
+Dunedin 45d52lS 170d30lE  New Zealand
+Dundee 56d28lN 2d58lW  United Kingdom
+Durban 29d53lS 31d03lE  South Africa
+Dushanbe 38d32lN 68d47lE  Tajikistan
+Edinburgh 55d57lN 3d11lW  United Kingdom
+Eureka 79d59lN 85d56lW  Canada
+Esbjerg 55d29lN 8d27lE  Denmark
+Erbil 36d11lN 44d01lE  Iraq
+Eilat 29d33lN 34d57lE  Israel
+Ensenada 31d51lN 116d36lW  Mexico
+El Aaiún 27d09lN 13d12lW  Morocco
+Enschede 52d13lN 6d54lE  Netherlands
+El Paso 31d47lN 106d25lW  United States
+Enugu 6d27lN 7d31lE  Nigeria
+Entebbe 0d03lN 32d28lE  Uganda
+Espoo 60d12lN 24d39lE  Finland
+Eskisehir 39d47lN 30d31lE  Turkey
+Faisalabad 31d25lN 73d05lE  Pakistan
+Exeter 50d43lN 3d32lW  United Kingdom
+Fairbanks 64d51lN 147d43lW  United States
+Florence 43d47lN 11d15lE  Italy
+Flores Island 39d28lN 31d14lW  Portugal
+Fortaleza 3d43lS 38d33lW  Brazil
+Fort McMurray 56d44lN 111d23lW  Canada
+Forked River 39d48lN 74d06lW  United States
+Fort-de-France 14d36lN 61d05lW  France
+Fort Wayne 41d05lN 85d08lW  United States
+Gaborone 24d39lS 25d55lE  Botswana
+Fredericton 45d57lN 66d40lW  Canada
+Frankfurt am Main 50d07lN 8d41lE  Germany
+Fukuoka 33d35lN 130d24lE  Japan
+Freetown 8d29lN 13d14lW  Sierra Leone
+Funchal 32d39lN 16d55lW  Portugal
+Funafuti 8d31lS 179d13lE  Tuvalu
+Garanhuns 8d53lS 36d30lW  Brazil
+Gangtok 27d20lN 88d37lE  India
+Gaza 31d31lN 34d27lE  Palestine
+Gdańsk 54d22lN 18d38lE  Poland
+Gaziantep 37d04lN 37d23lE  Turkey
+Gdynia 54d30lN 18d33lE  Poland
+Ghent 51d03lN 3d44lE  Belgium
+Georgetown 6d48lN 58d10lW  Guyana
+George Town 5d25lN 100d19lE  Malaysia
+Geneva 46d12lN 6d09lE  Switzerland
+Goiânia 16d40lS 49d15lW  Brazil
+Gibraltar 36d08lN 5d21lW  United Kingdom
+Gloucester 51d52lN 2d14lW  United Kingdom
+Glasgow 55d51lN 4d16lW  United Kingdom
+Hobart 42d53lS 147d20lE  Australia
+Graz 47d04lN 15d26lE  Austria
+Governador Valadares 18d51lS 41d56lW  Brazil
+Gothenburg 57d42lN 11d58lE  Sweden
+Grande Prairie 55d10lN 118d48lW  Canada
+Halifax 44d51lN 63d12lW  Canada
+Grise Fiord 76d25lN 82d54lW  Canada
+Greenwich 51d29lN 0d00lE/W  United Kingdom
+Guayaquil 2d11lS 79d53lW  Ecuador
+Guatemala City 14d37lN 90d32lW  Guatemala
+Guadalajara 20d40lN 103d21lW  Mexico
+Groningen 53d13lN 6d33lE  Netherlands
+Grytviken 54d17lS 36d30lW  United Kingdom
+Guangzhou 23d08lN 113d16lE  People's Republic of China
+Guwahati 26d11lN 91d44lE  India
+Haarlem 52d23lN 4d38lE  Netherlands
+Gweru 19d27lS 29d48lE  Zimbabwe
+Hagåtña 13d29lN 144d45lE  United States
+Hai Phong 20d51lN 106d41lE  Vietnam
+Hanga Roa 27d09lS 109d26lW  Chile
+Hamburg 53d34lN 10d00lE  Germany
+Halkida 38d28lN 23d36lE  Greece
+Hamilton 37d47lS 175d17lE  New Zealand
+Hammerfest 70d40lN 23d41lE  Norway
+Handan 36d36lN 114d29lE  People's Republic of China
+Havana 23d08lN 82d23lW  Cuba
+Hannover 52d22lN 9d43lE  Germany
+Hangzhou 30d15lN 120d10lE  People's Republic of China
+Hastings 39d39lS 176d50lE  New Zealand
+Harbin 45d45lN 126d38lE  People's Republic of China
+Haparanda 65d50lN 24d08lE  Sweden
+Hanoi 21d02lN 105d51lE  Vietnam
+Harare 17d52lS 31d02lE  Zimbabwe
+Hargeisa 9d34lN 44d04lE  Somalia
+Hartford 41d46lN 72d40lW  United States
+Hat Yai 7d01lN 100d28lE  Thailand
+Helsinki 60d10lN 24d56lE  Finland
+Helena 46d36lN 112d02lW  United States
+Heraklion 35d20lN 25d08lE  Greece
+Hiroshima 34d23lN 132d27lE  Japan
+Hermosillo 29d06lN 110d57lW  Mexico
+Hilo 19d42lN 155d05lW  United States
+Ho Chi Minh City 10d46lN 106d41lE  Vietnam
+Horta 38d35lN 28d43lW  Portugal
+Honiara 9d28lS 159d49lE  Solomon Islands
+Honolulu 21d19lN 157d50lW  United States
+Houston 29d46lN 95d23lW  United States
+Innsbruck 47d16lN 11d23lE  Austria
+Ilhéus 14d47lS 39d03lW  Brazil
+Hyderabad 17d22lN 78d29lE  India
+Huế 16d28lN 107d35lE  Vietnam
+Ibadan 7d24lN 3d55lE  Nigeria
+Ibiza 38d59lN 1d26lE  Spain
+Imperatriz 5d32lS 47d29lW  Brazil
+Iloilo City 10d43lN 122d34lE  Philippines
+Incheon 37d29lN 126d38lE  South Korea
+Indianapolis 39d46lN 86d09lW  United States
+Juiz de Fora 21d46lS 43d21lW  Brazil
+João Pessoa 7d05lS 34d50lW  Brazil
+Iqaluit 63d45lN 68d31lW  Canada
+Ipoh 4d36lN 101d04lE  Malaysia
+Invercargill 46d25lS 168d21lE  New Zealand
+Inverness 57d28lN 4d14lW  United Kingdom
+Iquique 20d13lS 70d09lW  Chile
+Jaipur 26d56lN 75d49lE  India
+Isfahan 32d38lN 51d39lE  Iran
+Iquitos 3d44lS 73d15lW  Peru
+Irkutsk 52d19lN 104d18lE  Russia
+Islamabad 33d43lN 73d04lE  Pakistan
+Izhevsk 56d50lN 53d11lE  Russia
+Istanbul 41d01lN 28d57lE  Turkey
+Jacksonville 30d20lN 81d40lW  United States
+Jackson 32d18lN 90d11lW  United States
+Jayapura 2d32lS 140d43lE  Indonesia
+Jakarta 6d12lS 106d48lE  Indonesia
+Jamestown 15d55lS 5d43lW  United Kingdom
+Jerusalem 31d47lN 35d13lE  Israel
+Jeddah 21d33lN 39d10lE  Saudi Arabia
+Jersey City 40d43lN 74d04lW  United States
+Johor Bahru 1d29lN 103d44lE  Malaysia
+Jinan 36d40lN 116d59lE  People's Republic of China
+Johannesburg 26d12lS 28d03lE  South Africa
+Juazeiro do Norte 7d12lS 39d20lW  Brazil
+Juba 4d51lN 31d36lE  South Sudan
+Jyväskylä 62d15lN 25d45lE  Finland
+Juneau 58d18lN 134d25lW  United States
+Kamloops 50d41lN 120d20lW  Canada
+Kaesong 37d58lN 126d33lE  North Korea
+Kaliningrad 54d43lN 20d31lE  Russia
+Kampala 0d19lN 32d35lE  Uganda
+Tirana 41d20lN 19d49lE  Albania
+Tiaret 35d22lN 1d19lE  Algeria
+Luanda 8d50lS 13d14lE  Angola
+Kingston 29d04lS 167d58lE  Australia
+Kelowna 49d53lN 119d30lW  Canada
+Kanpur 26d28lN 80d20lE  India
+Kano 12d00lN 8d31lE  Nigeria
+Kandy 7d18lN 80d38lE  Sri Lanka
+Kawasaki 35d31lN 139d42lE  Japan
+Kathmandu 27d42lN 85d20lE  Nepal
+Karachi 24d52lN 67d01lE  Pakistan
+Kaohsiung 22d38lN 120d16lE  Republic of China (Taiwan)
+Kansas City 39d06lN 94d35lW  United States
+Kazan 55d47lN 49d08lE  Russia
+Kemi 65d44lN 24d34lE  Finland
+Kemijärvi 66d43lN 27d26lE  Finland
+Kiel 54d20lN 10d08lE  Germany
+Khartoum 15d38lN 32d32lE  Sudan
+Kharkiv 50d00lN 36d14lE  Ukraine
+Key West 24d34lN 81d47lW  United States
+Khon Kaen 16d26lN 102d50lE  Thailand
+Kigali 1d57lS 30d04lE  Rwanda
+Kiev 50d27lN 30d31lE  Ukraine
+Kimberley 28d45lS 24d46lE  South Africa
+Linz 48d18lN 14d17lE  Austria
+La Paz 16d30lS 68d09lW  Bolivia
+Kinshasa 4d20lS 15d19lE  Democratic Republic of the Congo
+Kingstown 13d09lN 61d14lW  Saint Vincent and the Grenadines
+Kuopio 62d54lN 27d41lE  Finland
+Kumasi 6d40lN 1d37lW  Ghana
+Kolkata (Calcutta) 22d34lN 88d22lE  India
+Kochi 9d58lN 76d17lE  India
+Kirkuk 35d28lN 44d19lE  Iraq
+Kismayo 0d21lS 42d33lE  Somalia
+Kiruna 67d51lN 20d13lE  Sweden
+Knoxville 35d58lN 83d57lW  United States
+Kulpahar 25d19lN 79d38lE  India
+Kuching 1d34lN 110d21lE  Malaysia
+Kuala Lumpur 3d09lN 101d42lE  Malaysia
+Kota Kinabalu 5d58lN 116d06lE  Malaysia
+Kota Bharu 6d08lN 102d15lE  Malaysia
+Koror City 7d22lN 134d29lE  Palau
+Konya 37d52lN 32d29lE  Turkey
+Koulikoro 12d52lN 7d34lW  Mali
+Kristiansand 58d10lN 8d00lE  Norway
+Kraków 50d04lN 19d56lE  Poland
+Krasnodar 45d02lN 38d58lE  Russia
+Krasnoyarsk 56d01lN 93d04lE  Russia
+Kunming 25d04lN 102d41lE  People's Republic of China
+Kuusamo 65d58lN 29d11lE  Finland
+Kōbe 34d41lN 135d12lE  Japan
+Kyoto 35d01lN 135d46lE  Japan
+Kuwait City 29d22lN 47d59lE  Kuwait
+La Serena 29d54lS 71d15lW  Chile
+Liberia 10d38lN 85d26lW  Costa Rica
+Labasa 16d26lS 179d22lE  Fiji
+Lahti 60d59lN 25d39lE  Finland
+Lagos 6d27lN 3d24lE  Nigeria
+Lahore 31d33lN 74d21lE  Pakistan
+Le Havre 49d29lN 0d06lE  France
+Lanzhou 36d02lN 103d48lE  People's Republic of China
+Las Palmas de Gran Canaria 28d09lN 15d25lW  Spain
+Lausanne 46d31lN 6d38lE  Switzerland
+Latakia 35d31lN 35d47lE  Syria
+Las Vegas 36d11lN 115d08lW  United States
+Leipzig 51d20lN 12d23lE  Germany
+Leiden 52d10lN 4d29lE  Netherlands
+Leicester 52d38lN 1d08lW  United Kingdom
+Leeds 53d48lN 1d33lW  United Kingdom
+León 21d07lN 101d41lW  Mexico
+Lhasa 29d39lN 91d06lE  People's Republic of China
+Limón 9d59lN 83d02lW  Costa Rica
+Libreville 0d23lN 9d27lE  Gabon
+Lilongwe 13d59lS 33d47lE  Malawi
+Lillehammer 61d08lN 10d26lE  Norway
+Lima 12d03lS 77d02lW  Peru
+Lincoln 40d49lN 96d41lW  United States
+Longyearbyen 78d13lN 15d39lE  Norway
+Lisbon 38d43lN 9d08lW  Portugal
+Ljubljana 46d03lN 14d31lE  Slovenia
+Liverpool 53d24lN 2d59lW  United Kingdom
+Little Rock 34d44lN 92d20lW  United States
+Livingstone 17d51lS 25d52lE  Zambia
+Lleida 41d37lN 0d38lE  Spain
+Lobamba 26d25lS 31d10lE  Swaziland
+Lomé 6d08lN 1d13lE  Togo
+London 51d30lN 0d08lW  United Kingdom
+Los Angeles 34d03lN 118d15lW  United States
+Los Alamos 35d53lN 106d18lW  United States
+Louisville 38d15lN 85d46lW  United States
+St. John's 17d07lN 61d51lW  Antigua and Barbuda
+Salta 24d47lS 65d25lW  Argentina
+Mendoza 32d53lS 68d49lW  Argentina
+Mandurah 32d32lS 115d43lE  Australia
+Manama 26d13lN 50d35lE  Bahrain
+Macapá 0d02lN 51d04lW  Brazil
+Lubumbashi 11d40lS 27d28lE  Democratic Republic of the Congo
+Luxor 25d41lN 32d39lE  Egypt
+Lucknow 26d51lN 80d57lE  India
+Ludhiana 30d55lN 75d51lE  India
+Luxembourg 49d37lN 6d07lE  Luxembourg
+Luleå 65d35lN 22d09lE  Sweden
+Lusaka 15d25lS 28d17lE  Zambia
+Lyon 45d46lN 4d51lE  France
+Lviv 49d51lN 24d01lE  Ukraine
+Maastricht 50d51lN 5d41lE  Netherlands
+Maceió 9d40lS 35d44lW  Brazil
+Malabo 3d45lN 8d47lE  Equatorial Guinea
+Makassar 5d08lS 119d25lE  Indonesia
+Majuro 7d04lN 171d16lE  Marshall Islands
+Magadan 59d34lN 150d48lE  Russia
+Mafikeng 25d51lS 25d38lE  South Africa
+Madrid 40d23lN 3d43lW  Spain
+Makati 14d33lN 121d02lE  Philippines
+Mamoudzou 12d47lS 45d14lE  France
+Malang 7d59lS 112d37lE  Indonesia
+Malacca Town 2d12lN 102d15lE  Malaysia
+Malé 4d11lN 73d31lE  Maldives
+Malmö 55d35lN 13d02lE  Sweden
+Managua 12d08lN 86d15lW  Nicaragua
+Manaus 3d06lS 60d01lW  Brazil
+Manchester 53d28lN 2d14lW  United Kingdom
+Melbourne 37d49lS 144d58lE  Australia
+Medellín 6d14lN 75d35lW  Colombia
+Mata-Utu 13d17lS 176d11lW  France
+Marseille 43d18lN 5d22lE  France
+Marrakech 31d38lN 8d01lW  Morocco
+Maputo 25d58lS 32d35lE  Mozambique
+Manila 14d35lN 120d58lE  Philippines
+Manzini 26d29lS 31d22lE  Swaziland
+Maracay 10d15lN 67d36lW  Venezuela
+Maracaibo 10d39lN 71d38lW  Venezuela
+Mashhad 36d18lN 59d36lE  Iran
+Maseru 29d19lS 27d29lE  Lesotho
+Medan 3d35lN 98d40lE  Indonesia
+Mecca 21d25lN 39d49lE  Saudi Arabia
+Mbabane 26d19lS 31d08lE  Swaziland
+Medina 24d28lN 39d36lE  Saudi Arabia
+Melekeok 7d29lN 134d36lE  Palau
+Memphis 35d07lN 89d58lW  United States
+Rosario 32d57lS 60d40lW  Argentina
+Port Hedland 20d19lS 118d36lE  Australia
+Perth 31d57lS 115d52lE  Australia
+Newcastle 32d55lS 151d45lE  Australia
+Nassau 25d04lN 77d20lW  Bahamas
+Minsk 53d54lN 27d34lE  Belarus
+Messina 38d11lN 15d33lE  Italy
+Mersin 36d48lN 34d38lE  Turkey
+Milan 45d28lN 9d11lE  Italy
+Mexicali 32d40lN 115d28lW  Mexico
+Miami 25d47lN 80d13lW  United States
+Milwaukee 43d03lN 87d57lW  United States
+Minneapolis 44d59lN 93d16lW  United States
+Montreal 45d30lN 73d34lW  Canada
+Moncton 46d08lN 64d46lW  Canada
+Mombasa 4d03lS 39d40lE  Kenya
+Miri 4d24lN 114d00lE  Malaysia
+Mogadishu 2d02lN 45d21lE  Somalia
+Mobile 30d42lN 88d03lW  United States
+Monaco 43d44lN 7d25lE  Monaco
+Monrovia 6d19lN 10d48lW  Liberia
+Monterrey 25d40lN 100d18lW  Mexico
+Montpelier 44d15lN 72d34lW  United States
+Montevideo 34d53lS 56d11lW  Uruguay
+N'Djamena 12d07lN 15d03lE  Chad
+Moundou 8d34lN 16d05lE  Chad
+Moroni 11d45lS 43d12lE  Comoros
+Mosul 36d20lN 43d08lE  Iraq
+Moscow 55d45lN 37d37lE  Russia
+Munich 48d08lN 11d34lE  Germany
+Mumbai (Bombay) 18d59lN 72d50lE  India
+Multan 30d12lN 71d28lE  Pakistan
+Mérida 20d58lN 89d37lW  Mexico
+Muscat 23d37lN 58d36lE  Oman
+Murmansk 68d58lN 33d05lE  Russia
+Málaga 36d43lN 4d25lW  Spain
+Mwanza 2d31lS 32d54lE  Tanzania
+Mutare 18d58lS 32d38lE  Zimbabwe
+Nantes 47d13lN 1d33lW  France
+Nagpur 21d08lN 79d05lE  India
+Nagoya 35d11lN 136d54lE  Japan
+Naha 26d13lN 127d41lE  Japan
+Nairobi 1d17lS 36d49lE  Kenya
+Nanning 22d49lN 108d19lE  People's Republic of China
+Nanjing 32d03lN 118d46lE  People's Republic of China
+Nakhon Ratchasima 14d59lN 102d06lE  Thailand
+Namangan 41d00lN 71d40lE  Uzbekistan
+Naples 40d51lN 14d16lE  Italy
+Narvik 68d25lN 17d34lE  Norway
+Nashville 36d10lN 86d47lW  United States
+Natal 5d47lS 35d12lW  Brazil
+New Delhi 28d37lN 77d13lE  India
+Nemuro 43d20lN 145d35lE  Japan
+Naypyidaw 19d45lN 96d06lE  Myanmar
+Nelson 41d16lS 173d17lE  New Zealand
+Ndola 12d58lS 28d38lE  Zambia
+Nelspruit 25d28lS 30d59lE  South Africa
+New Orleans 29d58lN 90d03lW  United States
+New York City 40d40lN 73d56lW  United States
+Palmas 10d11lS 48d20lW  Brazil
+Ouagadougou 12d21lN 1d32lW  Burkina Faso
+Ottawa 45d25lN 75d41lW  Canada
+North Bay 46d18lN 79d27lW  Canada
+Nicosia 35d10lN 33d22lE  Cyprus
+Nice 43d42lN 7d16lE  France
+Niamey 13d31lN 2d06lE  Niger
+Ngerulmud 7d30'2lN 134d36'2lE  Palau
+Newcastle upon Tyne 54d58lN 1d37lW  United Kingdom
+Nord 81d36lN 16d40lW  Denmark
+Nizhny Novgorod 56d20lN 44d00lE  Russia
+Norilsk 69d20lN 88d13lE  Russia
+Norrköping 58d36lN 16d12lE  Sweden
+Odense 55d24lN 10d23lE  Denmark
+Nuuk (Godthåb) 64d11lN 51d44lW  Denmark
+Nuorgam 70d05lN 27d53lE  Finland
+Nouméa 22d17lS 166d27lE  France
+Nouakchott 18d06lN 15d57lW  Mauritania
+Norwich 52d38lN 1d18lE  United Kingdom
+Nottingham 52d57lN 1d08lW  United Kingdom
+Novosibirsk 55d01lN 82d56lE  Russia
+Novi Sad 45d15lN 19d51lE  Serbia
+Nukuʻalofa 21d08lS 175d12lW  Tonga
+Nukulaelae 9d23lS 179d51lE  Tuvalu
+Nukus 42d28lN 59d36lE  Uzbekistan
+Nzérékoré 7d45lN 8d49lW  Guinea
+Ny-Ålesund 78d55lN 11d56lE  Norway
+Orléans 47d54lN 1d55lE  France
+Oranjestad 12d31lN 70d02lW  Netherlands
+Omsk 54d59lN 73d22lE  Russia
+Omdurman 15d39lN 32d29lE  Sudan
+Odessa 46d28lN 30d44lE  Ukraine
+Oklahoma City 35d29lN 97d32lW  United States
+Orlando 28d25lN 81d18lW  United States
+Osaka 34d42lN 135d30lE  Japan
+Oslo 59d57lN 10d45lE  Norway
+Palikir 6d55lN 158d10lE  Federated States of Micronesia
+Oulu 65d01lN 25d28lE  Finland
+Padang 0d57lS 100d21lE  Indonesia
+Oxford 51d45lN 1d15lW  United Kingdom
+Palembang 2d59lS 104d45lE  Indonesia
+Pago Pago 14d17lS 170d42lW  United States
+Palermo 38d07lN 13d22lE  Italy
+Palma 39d34lN 2d39lE  Spain
+Pelotas 31d46lS 52d21lW  Brazil
+Papeete 17d32lS 149d34lW  France
+Panama City 8d59lN 79d31lW  Panama
+Paris 48d51lN 2d21lE  France
+Paramaribo 5d52lN 55d10lW  Suriname
+Patna 25d37lN 85d09lE  India
+Pekanbaru 0d32lN 101d27lE  Indonesia
+Pattaya 12d56lN 100d53lE  Thailand
+Perm 58d00lN 56d19lE  Russia
+Petrolina 9d24lS 40d30lW  Brazil
+Peshawar 34d01lN 71d35lE  Pakistan
+Peterborough 52d35lN 0d15lW  United Kingdom
+Phnom Penh 11d33lN 104d55lE  Cambodia
+Petropavlovsk-Kamchatsky 53d01lN 158d39lE  Russia
+Philadelphia 39d57lN 75d10lW  United States
+Port Blair 11d40lN 92d46lE  India
+Pontianak 0d01lS 109d20lE  Indonesia
+Podgorica 42d26lN 19d16lE  Montenegro
+Pietermaritzburg 29d37lS 30d23lE  South Africa
+Phra Nakhon Si Ayutthaya 14d21lN 100d34lE  Thailand
+Phoenix 33d27lN 112d04lW  United States
+Phuket 7d53lN 98d24lE  Thailand
+Pierre 44d22lN 100d20lW  United States
+Piteå 65d20lN 21d30lE  Sweden
+Plymouth 50d22lN 4d09lW  United Kingdom
+Pittsburgh 40d27lN 80d00lW  United States
+Ponta Delgada 37d49lN 25d45lW  Portugal
+Polokwane 23d54lS 29d27lE  South Africa
+Port Harcourt 4d45lN 7d00lE  Nigeria
+Port Elizabeth 33d57lS 25d36lE  South Africa
+Rockhampton 23d23lS 150d31lE  Australia
+Porto-Novo 6d30lN 2d36lE  Benin
+Porto Alegre 30d02lS 51d14lW  Brazil
+Port Said 31d15lN 32d17lE  Egypt
+Port Louis 20d10lS 57d30lE  Mauritius
+Port Moresby 9d31lS 147d13lE  Papua New Guinea
+Port-au-Prince 18d32lN 72d20lW  Haiti
+Port of Spain 10d40lN 61d31lW  Trinidad and Tobago
+Port Vila 17d45lS 168d18lE  Vanuatu
+Porto 41d10lN 8d37lW  Portugal
+Portland 45d31lN 122d41lW  United States
+Porto Velho 8d46lS 63d54lW  Brazil
+Ribeirão Preto 21d11lS 47d48lW  Brazil
+Poços de Caldas 21d47lS 46d34lW  Brazil
+Portsmouth 50d49lN 1d05lW  United Kingdom
+Recife 8d03lS 34d54lW  Brazil
+Quebec City 46d49lN 71d13lW  Canada
+Praia 14d55lN 23d31lW  Cape Verde
+Prague 50d05lN 14d25lE  Czech Republic
+Puerto Montt 41d28lS 72d56lW  Chile
+Puerto Aisén 45d24lS 72d41lW  Chile
+Pudasjärvi 65d22lN 27d00lE  Finland
+Pristina 42d40lN 21d10lE  Serbia
+Pretoria 25d45lS 28d11lE  South Africa
+Providence 41d49lN 71d25lW  United States
+Puebla 19d03lN 98d13lW  Mexico
+Puerto Ayacucho 5d40lN 67d38lW  Venezuela
+Punta Arenas 53d10lS 70d56lW  Chile
+Puerto Williams 54d56lS 67d37lW  Chile
+Puerto Toro 55d05lS 67d05lW  Chile
+Puerto Vallarta 20d40lN 105d16lW  Mexico
+Pune 18d31lN 73d51lE  India
+Puntarenas 9d58lN 84d50lW  Costa Rica
+Qaqortoq 60d43lN 46d02lW  Denmark
+Qaanaaq 7d28lN 69d14lW  Denmark
+Pyongyang 39d01lN 125d44lE  North Korea
+Qingdao 36d04lN 120d23lE  People's Republic of China
+Quito 0d15lS 78d35lW  Ecuador
+Quetzaltenango 14d50lN 91d31lW  Guatemala
+Querétaro 20d35lN 100d24lW  Mexico
+Quezon City 14d38lN 121d02lE  Philippines
+Rabi Island 16d30lS 180d00lW  Fiji
+Rabat 34d02lN 6d50lW  Morocco
+Rawalpindi 33d36lN 73d02lE  Pakistan
+Raleigh 35d49lN 78d39lW  United States
+Regina 50d27lN 104d36lW  Canada
+Reykjavík 64d08lN 21d56lW  Iceland
+Reno 39d32lN 119d49lW  United States
+Rio de Janeiro 22d55lS 43d12lW  Brazil
+Rio Branco 9d58lS 67d49lW  Brazil
+Riga 56d57lN 24d06lE  Latvia
+Riyadh 24d38lN 46d43lE  Saudi Arabia
+Riverside 33d57lN 117d24lW  United States
+Road Town 18d26lN 64d37lW  United Kingdom
+Rochester 43d10lN 77d37lW  United States
+Rome 41d54lN 12d30lE  Italy
+Río Gallegos 51d38lS 69d13lW  Argentina
+Roseau 15d18lN 61d23lW  Dominica
+Rovaniemi 66d30lN 25d44lE  Finland
+Rouen 49d26lN 1d06lE  France
+Rotterdam 51d56lN 4d29lE  Netherlands
+Rostov-on-Don 47d14lN 39d42lE  Russia
+Saint John 45d17lN 66d05lW  Canada
+Sabha 27d02lN 14d26lE  Libya
+Sacramento 38d33lN 121d28lW  United States
+Saint-Denis 20d53lS 55d27lE  France
+Saint Petersburg 59d57lN 30d18lE  Russia
+Saint-Pierre 46d47lN 56d11lW  France
+Salalah 17d01lN 54d05lE  Oman
+Saipan 15d11lN 145d45lE  United States
+Salt Lake City 40d45lN 111d53lW  United States
+San Miguel de Tucumán 26d49lS 65d13lW  Argentina
+San Carlos de Bariloche 41d09lS 71d18lW  Argentina
+Salzburg 47d48lN 13d02lE  Austria
+Salvador 12d58lS 38d29lW  Brazil
+Samara 53d12lN 50d08lE  Russia
+San Antonio 29d25lN 98d30lW  United States
+San José 9d56lN 84d05lW  Costa Rica
+San Fernando 10d17lN 61d28lW  Trinidad and Tobago
+San Diego 32d43lN 117d10lW  United States
+San Francisco 37d47lN 122d25lW  United States
+San Luis Potosí 22d09lN 100d51lW  Mexico
+San Juan 18d27lN 66d04lW  United States
+San Marino 43d56lN 12d27lE  San Marino
+Santa Cruz de la Sierra 17d48lS 63d10lW  Bolivia
+San Salvador 13d41lN 89d11lW  El Salvador
+Santa Cruz de Tenerife 28d28lN 16d15lW  Spain
+Santa Barbara 34d26lN 119d43lW  United States
+Sana'a 15d21lN 44d12lE  Yemen
+Sarajevo 43d51lN 18d21lE  Bosnia and Herzegovina
+Santiago 33d27lS 70d40lW  Chile
+Santa Fe 35d40lN 105d58lW  United States
+Santiago de Cali 3d25lN 76d31lW  Colombia
+Santiago de Cuba 20d01lN 75d49lW  Cuba
+Santo Domingo 18d28lN 69d57lW  Dominican Republic
+Sapporo 43d04lN 141d21lE  Japan
+Sinop 11d51lS 55d39lW  Brazil
+Siem Reap 13d22lN 103d52lE  Cambodia
+Sault Ste. Marie 46d32lN 84d21lW  Canada
+Saskatoon 52d08lN 106d41lW  Canada
+Sarpsborg 59d17lN 11d12lE  Norway
+Saratov 51d32lN 46d01lE  Russia
+Serekunda 13d26lN 16d40lW  Gambia
+Sekondi-Takoradi 4d55lN 1d46lW  Ghana
+Seattle 47d37lN 122d20lW  United States
+Semarang 6d58lS 110d25lE  Indonesia
+Sendai 38d16lN 140d52lE  Japan
+Seoul 37d34lN 126d59lE  South Korea
+Shillong 25d34lN 91d53lE  India
+Shenzhen 22d33lN 114d06lE  People's Republic of China
+Shanghai 31d12lN 121d30lE  People's Republic of China
+Sevilla 37d23lN 5d59lW  Spain
+Sfax 34d44lN 10d46lE  Tunisia
+Shenyang 41d48lN 123d24lE  People's Republic of China
+Sheffield 53d23lN 1d28lW  United Kingdom
+Shigatse 29d16lN 88d53lE  People's Republic of China
+Shijiazhuang 38d03lN 114d30lE  People's Republic of China
+Shimla 31d06lN 77d10lE  India
+Siliguri 26d43lN 88d26lE  India
+Simferopol 44d57lN 34d06lE  Russia
+Singapore 1d17lN 103d50lE  Singapore
+Sobral 3d40lS 40d14lW  Brazil
+Skopje 42d00lN 21d26lE  Macedonia
+Skellefteå 64d45lN 20d57lE  Sweden
+Sitka 57d03lN 135d20lW  United States
+Sofia 42d42lN 23d20lE  Bulgaria
+Sochi 43d35lN 39d43lE  Russia
+Split 43d30lN 16d26lE  Croatia
+South Tarawa 1d26lN 173d00lE  Kiribati
+Southampton 50d54lN 1d24lW  United Kingdom
+St. George's 12d03lN 61d45lW  Grenada
+Srinagar 34d05lN 74d47lE  India
+Sri Jayawardenapura-Kotte 6d55lN 79d53lE  Sri Lanka
+Springfield 37d12lN 93d17lW  United States
+Sydney 33d52lS 151d13lE  Australia
+Stepanakert 39d49lN 46d45lE  Azerbaijan
+Stanley 51d42lS 57d52lW  United Kingdom
+St. Louis 38d38lN 90d12lW  United States
+Sucre 19d03lS 65d15lW  Bolivia
+Strasbourg 48d35lN 7d45lE  France
+Stjørdal 63d29lN 11d10lE  Norway
+Stockholm 59d20lN 18d04lE  Sweden
+Stuttgart 48d47lN 9d11lE  Germany
+Sudbury 46d29lN 81d01lW  Canada
+Suez 29d58lN 32d33lE  Egypt
+Suva 18d08lS 178d27lE  Fiji
+Sukhumi 43d00lN 41d01lE  Georgia
+Surat 21d10lN 72d50lE  India
+Surabaya 7d16lS 112d45lE  Indonesia
+Sundsvall 62d24lN 17d19lE  Sweden
+Surat Thani 9d08lN 99d20lE  Thailand
+Swansea 51d37lN 3d57lW  United Kingdom
+Thimphu 27d28lN 89d39lE  Bhutan
+São Luís 2d32lS 44d18lW  Brazil
+São José do Rio Preto 20d48lS 49d23lW  Brazil
+São José dos Campos 23d11lS 45d53lW  Brazil
+São Paulo 23d33lS 46d38lW  Brazil
+Teresina 5d06lS 42d48lW  Brazil
+Temuco 38d45lS 72d40lW  Chile
+Tartu 58d23lN 26d43lE  Estonia
+Tallinn 59d26lN 24d45lE  Estonia
+Tabriz 38d04lN 46d18lE  Iran
+São Tomé 0d20lN 6d41lE  São Tomé and Príncipe
+Taiyuan 37d52lN 112d34lE  People's Republic of China
+Tagbilaran 9d39lN 123d51lE  Philippines
+Tainan 22d59lN 120d11lE  Republic of China (Taiwan)
+Taichung 24d09lN 120d40lE  Republic of China (Taiwan)
+Taipei 25d02lN 121d38lE  Republic of China (Taiwan)
+Tampere 61d30lN 23d46lE  Finland
+Tamale 9d24lN 0d51lW  Ghana
+Tampa 27d57lN 82d28lW  United States
+Tapachula 14d54lN 92d16lW  Mexico
+Tampico 22d15lN 97d52lW  Mexico
+Tbilisi 41d43lN 44d47lE  Georgia
+Tashkent 41d16lN 69d13lE  Uzbekistan
+Tegucigalpa 14d06lN 87d13lW  Honduras
+Tehran 35d42lN 51d25lE  Iran
+Tel Aviv 32d04lN 34d47lE  Israel
+Thessaloniki 40d39lN 22d54lE  Greece
+Tezpur 26d38lN 92d48lE  India
+The Hague 52d05lN 4d19lE  Netherlands
+The Valley 18d13lN 63d03lW  United Kingdom
+Thunder Bay 48d23lN 89d15lW  Canada
+Thiès 14d47lN 16d55lW  Senegal
+Tianjin 39d08lN 117d11lE  People's Republic of China
+Timbuktu 16d47lN 3d01lW  Mali
+Tijuana 32d32lN 117d02lW  Mexico
+ Buenos Aires 34d36lS 58d23lW  Argentina
+Trelew 43d15lS 65d18lW  Argentina
+Townsville 19d15lS 146d49lE  Australia
+Toronto 43d42lN 79d24lW  Canada
+Tornio 65d51lN 24d09lE  Finland
+Tokyo 35d41lN 139d42lE  Japan
+Tiraspol 46d51lN 29d38lE  Moldova
+Tolyatti 53d31lN 49d25lE  Russia
+Toulouse 43d36lN 1d27lE  France
+Torreón 25d32lN 103d27lW  Mexico
+Ushuaia 54d48lS 68d18lW  Argentina
+Uberlândia 18d55lS 48d17lW  Brazil
+Tuktoyaktuk 69d27lN 133d02lW  Canada
+Tskhinvali 42d14lN 43d58lE  Georgia
+Trivandrum 8d29lN 76d57lE  India
+Tripoli 32d54lN 13d11lE  Libya
+Trenton 40d13lN 74d46lW  United States
+Trondheim 63d26lN 10d24lE  Norway
+Tromsø 69d41lN 18d57lE  Norway
+Trujillo 8d07lS 79d02lW  Peru
+Tucson 32d13lN 110d56lW  United States
+Tórshavn 62d01lN 6d46lW  Denmark
+Turku 60d27lN 22d16lE  Finland
+Turin 45d04lN 7d42lE  Italy
+Tunis 36d48lN 10d11lE  Tunisia
+Tulsa 36d08lN 95d56lW  United States
+Upernavik 72d47lN 56d09lW  Denmark
+Ulaanbaatar 47d55lN 106d55lE  Mongolia
+Ufa 54d45lN 55d58lE  Russia
+Udon Thani 17d25lN 102d45lE  Thailand
+Umeå 63d50lN 20d16lE  Sweden
+Uppsala 59d51lN 17d39lE  Sweden
+Yerevan 40d11lN 44d31lE  Armenia
+Wollongong 34d26lS 150d53lE  Australia
+Vienna 48d13lN 16d22lE  Austria
+Victoria 48d26lN 123d22lW  Canada
+Vancouver 49d15lN 123d06lW  Canada
+Valparaíso 33d03lS 71d37lW  Chile
+Valdivia 39d49lS 73d15lW  Chile
+Vaasa 63d06lN 21d37lE  Finland
+Utsjoki 69d54lN 27d01lE  Finland
+Utrecht 52d06lN 5d07lE  Netherlands
+Vaduz 47d08lN 9d31lE  Liechtenstein
+Vadsø 70d05lN 29d44lE  Norway
+Valletta 35d54lN 14d31lE  Malta
+Valencia 39d28lN 0d23lW  Spain
+Vantaa 60d18lN 25d02lE  Finland
+Venice 45d26lN 12d20lE  Italy
+Vatican City 41d54lN 12d27lE  Vatican City
+Veracruz 19d11lN 96d09lW  Mexico
+Verkhoyansk 67d33lN 133d23lE  Russia
+Vitória 20d19lS 40d20lW  Brazil
+Visakhapatnam 17d41lN 83d13lE  India
+Vientiane 17d58lN 102d36lE  Laos
+Vilnius 54d41lN 25d17lE  Lithuania
+Virginia Beach 36d51lN 75d59lW  United States
+Windsor 42d17lN 83d00lW  Canada
+Whitehorse 60d43lN 135d03lW  Canada
+Weno 7d27lN 151d51lE  Federated States of Micronesia
+Wellington 41d17lS 174d47lE  New Zealand
+Warsaw 52d14lN 21d01lE  Poland
+Vladivostok 43d08lN 131d54lE  Russia
+Volgograd 48d42lN 44d31lE  Russia
+Voronezh 51d40lN 39d13lE  Russia
+Washington 38d54lN 77d02lW  United States
+Windhoek 22d34lS 17d05lE  Namibia
+Willemstad 12d07lN 68d56lW  Netherlands
+Wichita 37d41lN 97d20lW  United States
+Wilmington 34d13lN 77d55lW  United States
+Winnipeg 49d54lN 97d08lW  Canada
+Yaoundé 3d52lN 11d31lE  Cameroon
+Yamoussoukro 6d49lN 5d17lW  Ivory Coast
+Wonsan 39d09lN 127d27lE  North Korea
+Wuhan 30d35lN 114d17lE  People's Republic of China
+Xi'an 34d16lN 108d54lE  People's Republic of China
+Xining 36d38lN 101d46lE  People's Republic of China
+Yakutsk 62d02lN 129d44lE  Russia
+Yangon 16d48lN 96d09lE  Myanmar
+Yarmouth 43d50lN 66d07lW  Canada
+Yaren District 0d33lS 166d55lE  Nauru
+Yellowknife 62d27lN 114d24lW  Canada
+Yekaterinburg 56d50lN 60d35lE  Russia
+Yaroslavl 57d37lN 39d51lE  Russia
+Zagreb 45d49lN 15d59lE  Croatia
+Yogyakarta 7d48lS 110d22lE  Indonesia
+Yokohama 35d27lN 139d38lE  Japan
+Zapopan 20d43lN 103d24lW  Mexico
+Zamboanga City 6d54lN 122d04lE  Philippines
+Zanzibar City 6d10lS 39d12lE  Tanzania
+Zhengzhou 34d46lN 113d39lE  People's Republic of China
+Zaragoza 41d39lN 0d53lW  Spain
+Zürich 47d22lN 8d33lE  Switzerland
+Ísafjörður 66d05lN 23d08lW  Iceland
+ Mexico City 19d26lN 99d08lW  Mexico
+ Macau 22d10lN 113d33lE  People's Republic of China
+ Hong Kong 22d17lN 114d10lE  People's Republic of China
+Ürümqi 43d50lN 87d36lE  People's Republic of China
+Östersund 63d11lN 14d40lE  Sweden
+Örnsköldsvik 63d17lN 18d44lE  Sweden
+İzmir 38d26lN 27d09lE  Turkey
