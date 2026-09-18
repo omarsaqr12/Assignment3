@@ -1,0 +1,32 @@
+name: C++ city checks
+on:
+  pull_request:
+  push:
+    branches: [main]
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build city CLI
+        run: g++ -std=c++17 -Wall -Wextra -Wpedantic -I. main.cpp -o city_distance
+      - name: Build unit tests
+        run: g++ -std=c++17 -Wall -Wextra -Wpedantic -I. tests/city_tests.cpp -o city_tests
+      - name: Run coordinate and tree regression tests
+        run: ./city_tests
+      - name: Smoke test supplied CSV and multiword city names
+        run: |
+          printf 'Kandahar\nKabul\n' | ./city_distance MCity.csv > /tmp/city-distance.txt
+          grep -q 'Distance between Kandahar and Kabul:' /tmp/city-distance.txt
+          printf 'Andorra la Vella\nKabul\n' | ./city_distance MCity.csv > /tmp/multiword-city.txt
+          grep -q 'Distance between Andorra la Vella and Kabul:' /tmp/multiword-city.txt
+      - name: Missing city must fail cleanly
+        run: |
+          if printf 'not-a-city\nKabul\n' | ./city_distance MCity.csv; then
+            echo 'Missing city unexpectedly succeeded' >&2
+            exit 1
+          fi
+      - name: Run regression checks with undefined-behavior sanitizer
+        run: |
+          g++ -std=c++17 -Wall -Wextra -Wpedantic -fsanitize=undefined -fno-sanitize-recover=all -I. tests/city_tests.cpp -o city_tests_ubsan
+          ./city_tests_ubsan

@@ -1,86 +1,42 @@
-
-#ifndef BinaryTree_h
-#define BinaryTree_h
-
-
-
-#include <stdio.h>
+#ifndef BINARY_TREE_H
+#define BINARY_TREE_H
 
 template <class keyType, class dataType>
-
-class binaryTree
-{
-
+class binaryTree {
 public:
-
-    // Public Member functions ...
-    // CREATE AN EMPTY TREE
     binaryTree();
+    ~binaryTree();
+    binaryTree(const binaryTree&) = delete;
+    binaryTree& operator=(const binaryTree&) = delete;
 
-    // INSERT AN ELEMENT INTO THE TREE
-    bool insert (const keyType &, const dataType &);
-
-    // CHECK IF THE TREE IS EMPTY
+    bool insert(const keyType&, const dataType&);
     bool empty() const;
-
-    // SEARCH FOR A KEY IN THE TREE
-    dataType search (const keyType &) const;
-
-    // RETRIEVE DATA FOR A GIVEN KEY
-    bool retrieve (const keyType &, dataType &) const;
-
-    // TRAVERSE A TREE
-    void traverse() const;
-
-    // Iterative Pre-order Traversal
-    void preorder () const;
-
-    // Iterative Level-order Traversal
-    void levelorder () const;
-
-    // GRAPHIC OUTPUT
+    // search returns a default-constructed value if a key is missing;
+    // prefer retrieve() when absence must be distinguished from valid data.
+    dataType search(const keyType&) const;
+    bool retrieve(const keyType&, dataType&) const;
+    void traverse() const;  // in-order, written to stdout
+    void preorder() const;  // iterative, written to stdout
+    void levelorder() const; // iterative, written to stdout
     void graph() const;
-
-    // REMOVE AN ELEMENT FROM THE TREE
-    void remove (const keyType &);
-
+    void remove(const keyType&);
 
 private:
-    // Node Class
-    class treeNode
-    {
-    public:
-        keyType key;         // key
-        dataType data;        // Data
-        treeNode *left;        // left subtree
-        treeNode *right;    // right subtree
-    }; // end of class treeNode declaration
-
-    typedef treeNode * NodePointer;
-    // Data member ....
+    struct treeNode {
+        keyType key;
+        dataType data;
+        treeNode* left;
+        treeNode* right;
+    };
+    using NodePointer = treeNode*;
     NodePointer root;
 
-    // Private Member functions ...
-
-    // Searches a subtree for a key
-    dataType search2 (NodePointer , const keyType &) const;
-
-    // Searches a subtree for a key and retrieves data
-    bool retrieve2 (NodePointer , const keyType & , dataType &) const;
-
-    // Inserts an item in a subtree
-    bool insert2 (NodePointer &, const keyType &, const dataType &);
-
-    // Traverses a subtree
-    void traverse2 (NodePointer ) const;
-
-    // Graphic output of a subtree
-    void graph2 (int ,NodePointer ) const;
-
-    // LOCATE A NODE CONTAINING ELEMENT AND ITS PARENT
-    void parentSearch ( const keyType &k, bool &found,
-                        NodePointer &locptr, NodePointer &parent) const;
-
-
+    dataType search2(NodePointer, const keyType&) const;
+    bool retrieve2(NodePointer, const keyType&, dataType&) const;
+    bool insert2(NodePointer&, const keyType&, const dataType&);
+    void traverse2(NodePointer) const;
+    void graph2(int, NodePointer) const;
+    void parentSearch(const keyType&, bool&, NodePointer&, NodePointer&) const;
 };
-#endif /* BinaryTree_hpp */
+
+#endif

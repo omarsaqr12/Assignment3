@@ -1,306 +1,148 @@
-
-
+// Template implementation; include this file after BinaryTree.h in callers.
 #include "BinaryTree.h"
-// File: binaryTree.cpp
-// Implementation of template class binary search tree
 
-#include <iostream>
-#include "fstream"
 #include <iomanip>
-#include "Stackt.h"
-#include "Queuet.h"
-using namespace std;
+#include <iostream>
+#include <queue>
+#include <vector>
 
-// Member functions ...
+template <class K, class D>
+binaryTree<K, D>::binaryTree() : root(nullptr) {}
 
-// constructor - create an empty tree
-template <class keyType, class dataType>
-binaryTree<keyType, dataType>::binaryTree()
-{ root = NULL; }
-
-//____________ Public search __________________
-// Searches for the item with same key as k
-//  in a binary search tree.
-// Pre : k is defined.
-// Returns true if key is located,
-//   otherwise, returns false.
-template <class keyType, class dataType>
-dataType binaryTree<keyType, dataType>::search(const keyType &k) const
-{
-    return search2(root, k);
-} // end of public search
-
-//____________ Private search __________________
-// Searches for the item with same key as k
-// in the subtree pointed to by aRoot. Called
-// by public search.
-// Pre : k and aRoot are defined.
-// Returns true if key is located,
-// otherwise, returns false.
-template <class keyType, class dataType>
-dataType binaryTree<keyType, dataType>::search2(NodePointer aRoot,const keyType &k) const
-{
-
-    if (aRoot == NULL)
-    {
-        return "";
+template <class K, class D>
+binaryTree<K, D>::~binaryTree() {
+    std::vector<NodePointer> pending;
+    if (root) pending.push_back(root);
+    while (!pending.empty()) {
+        NodePointer node = pending.back();
+        pending.pop_back();
+        if (node->left) pending.push_back(node->left);
+        if (node->right) pending.push_back(node->right);
+        delete node;
     }
-    else if (k == aRoot->key)
-    {
+}
 
-        return aRoot->data;;
-    }
-    else if (k < aRoot->key)
-    {
-        return search2(aRoot->left, k);
-    }
-    else
-    {
-        return search2(aRoot->right, k);
-    }
-} // end of private search
+template <class K, class D>
+bool binaryTree<K, D>::empty() const { return root == nullptr; }
 
-//____________ Public retrieve __________________
-// Searches for the item with same key as k
-//  and retrieves data part if found
-// Pre : k is defined.
-// Returns true if key is located,
-//   otherwise, returns false.
-template <class keyType, class dataType>
-bool binaryTree<keyType, dataType>::retrieve(const keyType &k,
-                                             dataType &d) const
-{
-    return retrieve2(root, k, d);
-} // end of public retrieve
+template <class K, class D>
+bool binaryTree<K, D>::insert(const K& key, const D& value) {
+    return insert2(root, key, value);
+}
 
-//____________ Private retrieve __________________
-// Searches for the item with same key as k
-// in the subtree pointed to by aRoot and retrieves
-// data part if key is found.Called by public retrieve.
-// Pre : k and aRoot are defined.
-// Returns true if key is located,
-// otherwise, returns false.
-template <class keyType, class dataType>
-bool binaryTree<keyType, dataType>::retrieve2(NodePointer aRoot,
-                                              const keyType &k,
-                                              dataType &d)    const
-{
-    if (aRoot == NULL)
-        return false;
-    else if (k == aRoot->key)
-    { d = aRoot->data; return true;}
-    else if (k < aRoot->key)
-        return retrieve2(aRoot->left, k, d);
-    else
-        return retrieve2(aRoot->right,k, d);
-} // end of private retrieve
-
-//____________ Public insert __________________
-// Inserts element into a binary search tree.
-// Pre : key k is defined.
-// Post: Inserts element if k is not in the tree.
-// Returns true if the insertion is performed.
-// If there is a node with the same key value
-// as k, returns false.
-template <class keyType, class dataType>
-bool binaryTree<keyType, dataType>::insert(const keyType &k, const dataType &d)
-{
-    return insert2 (root, k , d);
-} // end of public insert
-
-
-//____________ Private insert __________________
-// Inserts element in the tree pointed to by
-// aRoot.Called by public insert.
-// Pre : aRoot k and d are defined.
-// Post: If a node with same key as k is found,
-// returns false. If an empty tree is reached,
-// inserts element as a leaf node and returns true.
-template <class keyType, class dataType>
-bool binaryTree<keyType, dataType>::insert2(NodePointer &aRoot,
-                                            const keyType &k, const dataType &d)
-{
-
-    // Check for empty tree.
-    if (aRoot == NULL)
-    { // Attach new node
-        aRoot = new treeNode;
-        aRoot->left = NULL;
-        aRoot->right = NULL;
-        aRoot->key = k;
-        aRoot->data = d;
+template <class K, class D>
+bool binaryTree<K, D>::insert2(NodePointer& node, const K& key, const D& value) {
+    if (!node) {
+        node = new treeNode{key, value, nullptr, nullptr};
         return true;
     }
-    else if (k == aRoot->key)
-        return false;
-    else if (k < aRoot->key)
-        return insert2 (aRoot->left, k, d);
-    else
-        return insert2 (aRoot->right, k, d);
-} // end of private insert
+    if (key == node->key) return false;
+    if (key < node->key) return insert2(node->left, key, value);
+    return insert2(node->right, key, value);
+}
 
-//____________ Public empty __________________
-// Check if tree is empty
-// Pre : none
-// Post: Returns true if tree is empty, false
-// otherwise
-template <class keyType, class dataType>
-bool binaryTree<keyType, dataType>::empty() const
-{
-    return(root == NULL);
-} // end of empty
+template <class K, class D>
+D binaryTree<K, D>::search(const K& key) const { return search2(root, key); }
 
-//____________ Public traverse__________________
-// Traverses a binary search tree in key order.
-// Pre : none
-// Post: Each element of the tree is displayed.
-// Elements are displayed in key order.
-template <class keyType, class dataType>
-void binaryTree<keyType, dataType>::traverse() const
-{
-    traverse2 (root);
-} // end of public traverse
+template <class K, class D>
+D binaryTree<K, D>::search2(NodePointer node, const K& key) const {
+    D result{};
+    retrieve2(node, key, result);
+    return result;
+}
 
-//____________ Private traverse__________________
-// Traverses the binary search tree pointed to
-// by aRoot in key order. Called by traverse.
-// Pre : aRoot is defined.
-// Post: displays each node in key order.
-template <class keyType, class dataType>
-void binaryTree<keyType, dataType>::traverse2 (NodePointer aRoot) const
-{
+template <class K, class D>
+bool binaryTree<K, D>::retrieve(const K& key, D& result) const {
+    return retrieve2(root, key, result);
+}
 
-    if (aRoot != NULL)
-    { // recursive in-order traversal
-        traverse2 (aRoot->left);
-        cout<< aRoot->key << " " << aRoot->data << endl;
-        traverse2 (aRoot->right);
+template <class K, class D>
+bool binaryTree<K, D>::retrieve2(NodePointer node, const K& key, D& result) const {
+    while (node) {
+        if (key == node->key) {
+            result = node->data;
+            return true;
+        }
+        node = key < node->key ? node->left : node->right;
     }
+    return false;
+}
 
-} // end of private traverse
+template <class K, class D>
+void binaryTree<K, D>::traverse() const { traverse2(root); }
 
-//____Public pre-order traversal (Iterative)______
-template <class keyType, class dataType>
-void binaryTree<keyType, dataType>::preorder () const
-{
-    Stackt<NodePointer> s;
-    NodePointer t = root;
-    s.push(t);
-    ofstream outputfile;
-    outputfile.open("C:\\Users\\AUC\\Downloads\\assignment\\assignment-3-ads-omarsaqr12\\output.txt");
-    while(!s.stackIsEmpty())
-    {
-        s.pop(t); outputfile << t->key <<" "<<t->data<< endl;
-        if ( t->right != NULL ) s.push(t->right);
-        if ( t->left  != NULL ) s.push (t->left);
+template <class K, class D>
+void binaryTree<K, D>::traverse2(NodePointer node) const {
+    if (!node) return;
+    traverse2(node->left);
+    std::cout << node->key << ' ' << node->data << '\n';
+    traverse2(node->right);
+}
+
+template <class K, class D>
+void binaryTree<K, D>::preorder() const {
+    std::vector<NodePointer> pending;
+    if (root) pending.push_back(root);
+    while (!pending.empty()) {
+        NodePointer node = pending.back();
+        pending.pop_back();
+        std::cout << node->key << ' ' << node->data << '\n';
+        if (node->right) pending.push_back(node->right);
+        if (node->left) pending.push_back(node->left);
     }
 }
 
-//____Public Level-order traversal (Iterative)______
-template <class keyType, class dataType>
-void binaryTree<keyType, dataType>::levelorder () const
-{
-    Queuet<NodePointer> q;
-    NodePointer t = root;
-    q.enqueue(t);
-    while(!q.queueIsEmpty())
-    {
-        q.dequeue(t); cout << t->key << endl;
-        if ( t->left  != NULL ) q.enqueue (t->left);
-        if ( t->right != NULL ) q.enqueue (t->right);
+template <class K, class D>
+void binaryTree<K, D>::levelorder() const {
+    std::queue<NodePointer> pending;
+    if (root) pending.push(root);
+    while (!pending.empty()) {
+        NodePointer node = pending.front();
+        pending.pop();
+        std::cout << node->key << ' ' << node->data << '\n';
+        if (node->left) pending.push(node->left);
+        if (node->right) pending.push(node->right);
     }
 }
 
+template <class K, class D>
+void binaryTree<K, D>::graph() const { graph2(0, root); }
 
-//____________ Public graph__________________
-// Graphic output of a BST
-// Pre : none
-// Post: Graphical representation is displayed.
-template <class keyType, class dataType>
-void binaryTree<keyType, dataType>::graph() const
-{
-    graph2 (0 , root);
-}// end of public graph
+template <class K, class D>
+void binaryTree<K, D>::graph2(int indent, NodePointer node) const {
+    if (!node) return;
+    graph2(indent + 4, node->right);
+    std::cout << std::setw(indent) << " " << node->key << '\n';
+    graph2(indent + 4, node->left);
+}
 
-//____________ Private graph__________________
-// Graphic output of a subtree pointed to by
-// aRoot with indent spaces
-// Pre : none
-// Post: Graphical representation is displayed.
-template <class keyType, class dataType>
-void binaryTree<keyType, dataType>::graph2(int indent, NodePointer aRoot) const
-{
-    if (aRoot != NULL)
-    { // recursive in-order traversal
-        graph2 (indent+8, aRoot->right);
-        cout << setw(indent) << " " << aRoot->key << endl;
-        graph2 (indent+8, aRoot->left);
+template <class K, class D>
+void binaryTree<K, D>::remove(const K& key) {
+    NodePointer* link = &root;
+    while (*link && (*link)->key != key)
+        link = key < (*link)->key ? &(*link)->left : &(*link)->right;
+    if (!*link) return;
+    NodePointer node = *link;
+    if (node->left && node->right) {
+        NodePointer* successor = &node->right;
+        while ((*successor)->left) successor = &(*successor)->left;
+        node->key = (*successor)->key;
+        node->data = (*successor)->data;
+        link = successor;
+        node = *link;
     }
-}// end of private graph
+    *link = node->left ? node->left : node->right;
+    delete node;
+}
 
-//____________ Public remove __________________
-// Remove an element from the binary search tree
-// Pre : k is defined.
-// Post: if k is present, its node will be
-// removed and tree will be modified
-template <class keyType, class dataType>
-void binaryTree<keyType, dataType>::remove (const keyType &k)
-{
-    bool found;
-    NodePointer x,parent;
-    // Search for element and its parent
-    parentSearch (k, found, x, parent);
-    if (!found)
-    {
-        cout << "Item not in BST\n";
-        return;
+template <class K, class D>
+void binaryTree<K, D>::parentSearch(const K& key, bool& found,
+                                     NodePointer& located, NodePointer& parent) const {
+    parent = nullptr;
+    located = root;
+    while (located && located->key != key) {
+        parent = located;
+        located = key < located->key ? located->left : located->right;
     }
-    // else, element is found
-    if ((x->left != NULL)&&(x->right != NULL))
-    {    // Node has two children
-        // Find inorder successor and its parent
-        NodePointer xSucc = x->right;
-        parent = x;
-        while (xSucc->left != NULL) // descend left
-        { parent = xSucc; xSucc = xSucc->left; }
-        // Move contents of xSucc to x and change x
-        // to point to successor, which will be removed
-        x->key = xSucc->key; x->data = xSucc->data;
-        x = xSucc;
-    } // end if node has two children
-    // Now, node has 0 or 1 child
-    NodePointer subtree = x->left; // subtree of x
-    if (subtree == NULL) subtree = x->right;
-    if (parent == NULL) root = subtree; //remove root
-    else if (parent->left == x) //parent left child
-        parent->left = subtree;
-    else parent->right = subtree; // right child
-    delete x;
-} // end of public remove
-
-//____________ Private parentSearch __________________
-// Locate a node containing key k and its parent
-// Pre : none.
-// Post: locptr points to node containing k
-// or is NULL if not found, and parent points to
-// its parent. Used by remove
-template <class keyType, class dataType>
-void binaryTree<keyType, dataType>::parentSearch (const keyType &k,
-                                                  bool &found,
-                                                  NodePointer &locptr,
-                                                  NodePointer &parent) const
-{
-    locptr = root;  parent = NULL; found = false;
-    while (!found && locptr != NULL)
-    {
-        if (k < locptr->key) // descend left
-        {
-            parent = locptr;    locptr = locptr->left;
-        }
-        else if (locptr->key < k) // descend right
-        {
-            parent = locptr;    locptr = locptr->right;
-        }
-        else found = true; // el found
-    }// end while
-} // end of private parentSearch
+    found = located != nullptr;
+}
