@@ -1,6 +1,6 @@
 # City distance with a binary search tree (C++ course assignment)
 
-A C++ data-structures exercise: load city names and geographic coordinates from the supplied CSV into a binary search tree, look up two cities, and compute their approximate **great-circle (straight-line) distance** with the haversine formula. It does **not** compute driving routes or travel time. This repository preserves the course implementation and data; the review branch repairs portability, coordinate correctness, and tree ownership.
+A C++ data-structures exercise: load city names and geographic coordinates from the supplied CSV into a binary search tree, look up two cities, and compute their approximate **great-circle (straight-line) distance** with the haversine formula. It does **not** compute driving routes or travel time. This repository preserves the original assignment data and improves portability, coordinate correctness, and tree ownership.
 
 ## Build and run
 
@@ -26,7 +26,7 @@ g++ -std=c++17 -Wall -Wextra -Wpedantic -I. tests/city_tests.cpp -o city_tests
 ./city_tests
 ```
 
-The regression tests exercise hemisphere signs, fractional minutes and seconds, invalid coordinates, haversine reference cases, empty-tree traversals, duplicate insertion, lookup, root/child deletion and traversal of more than the legacy 128-node stack capacity. They are targeted checks, not independent verification of every row in the supplied dataset.
+The regression tests exercise hemisphere signs, fractional minutes and seconds, invalid coordinates, haversine reference cases, empty-tree traversals, duplicate insertion, lookup, root/child deletion and traversal of more than the legacy 128-node stack capacity. GitHub Actions also compiles and runs these tests on pull requests and pushes to `main`, checks a multiword city lookup in the supplied CSV, and runs the tests under an undefined-behavior sanitizer. These are targeted checks, not independent verification of every row in the supplied dataset.
 
 ## How it works
 
@@ -40,9 +40,9 @@ The regression tests exercise hemisphere signs, fractional minutes and seconds, 
 - City lookup is case-sensitive. Duplicate city names retain the **first** CSV occurrence; the tool cannot disambiguate homonymous cities by country.
 - The CSV reader expects the supplied simple five-column layout and does not implement full RFC-style quoted-field parsing. Coordinates are validated when a requested pair is evaluated, not by exhaustively auditing the entire dataset.
 - A plain unbalanced BST can have O(n) insertion and lookup on unfortunate input orders. The distance is an approximate spherical estimate, not road, flight or geodesic-on-ellipsoid distance.
-- `preorder()` and `levelorder()` now safely write to standard output rather than to an absolute Windows path. The committed [`output.txt`](output.txt) is a historical output sample, **not** regenerated automatically.
-- [`Stackt.h`](Stackt.h), [`Queuet.h`](Queuet.h) and their `.cpp` files are legacy course helpers; the corrected tree traversals use standard-library containers instead. The committed Windows `.exe` files, VS Code debugger settings and temporary runner file are historical artifacts; use the documented source build instead.
+- `preorder()` and `levelorder()` safely write to standard output rather than to an absolute Windows path. The committed [`output.txt`](output.txt) is a historical output sample, **not** regenerated automatically.
+- [`Stackt.h`](Stackt.h), [`Queuet.h`](Queuet.h) and their `.cpp` files are legacy course helpers; the current tree traversals use standard-library containers instead. The committed Windows `.exe` files, VS Code debugger settings and temporary runner file are historical artifacts; use the documented source build instead.
 
 ## Attribution and provenance
 
-The project includes course-provided data and data-structure helper scaffolding alongside student-authored exercise code. The exact original authorship of every helper is not independently established. The review branch retains those original files and all Git history rather than inventing a production claim, independent benchmark or course-grade result.
+The project includes course-provided data and data-structure helper scaffolding alongside student-authored exercise code. The exact original authorship of every helper is not independently established. Original files and Git history are retained rather than inventing a production claim, independent benchmark or course-grade result.
